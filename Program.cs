@@ -1,11 +1,17 @@
-﻿using Editor;
+﻿using System;
+using System.ComponentModel;
+using System.Threading;
+using System.Collections;
+using System.Text;
 
-namespace HTMLEditor;
-
-class Program
+namespace HTMLEditor
 {
-    static void Main(string[] args)
+    class Program
     {
-        Menu.Mostrar();
+        static void Main(string[] args)
+        {
+            Menu.Mostrar();//chama function do arquivo Menu.
+        }
     }
-}
+}//End all.
+
